@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="image_spacing">16dp</dimen> <!-- Adjust the value as per your needs -->
+</resources>

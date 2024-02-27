@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:drawable="@drawable/b8" />
+
+    <!-- Dark Overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#8014141B" /> <!-- Adjust the opacity as needed (e.g., #80 for 50% opacity) -->
+        </shape>
+    </item>
+</layer-list>

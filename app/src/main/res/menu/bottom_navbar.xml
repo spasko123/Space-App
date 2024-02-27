@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:state_checked="true"
+        android:onClick="onOptionsItemSelected"
+        android:color="#FFFFFF"/>
+    <item android:title="Missions"
+        android:id="@+id/missions"
+        android:onClick="onOptionsItemSelected"
+        android:state_checked="true"
+        android:icon="@drawable/rocket_icon"
+        android:color="#FFFFFF"/>
+    <item android:title="Favorites"
+        android:id="@+id/favorites"
+        android:state_checked="true"
+        android:onClick="onOptionsItemSelected"
+        android:icon="@drawable/favorite_icon"
+        android:color="#FFFFFF"/>
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:state_checked="true"
+        android:onClick="onOptionsItemSelected"
+        android:icon="@drawable/profile_icon"
+        android:color="#FFFFFF"/>
+
+</menu>

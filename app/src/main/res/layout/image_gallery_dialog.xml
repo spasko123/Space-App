@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PlanetsInfoActivity"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:background="#e3cdb3"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/btnBack"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/back_black" />
+        <ImageView
+            android:id="@+id/btnForward"
+            android:layout_margin="5dp"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/forward_black" />
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/btnDownload"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/download_black" />
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/btnClose"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_close_24"
+            android:layout_width="1dp"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/dialogImageView"
+        android:src="@drawable/mercury_gallery_1"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY" />
+
+</LinearLayout>
+
